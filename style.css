@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*导航*/
+nav{
+    background-color: black;
+    height: 80px;
+}
+nav ul{
+    margin: 0;
+    display: flex;
+    padding-top: 30px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+    margin: auto;
+    color: aliceblue;
+}
+/*首页背景*/
+.welcome{
+    background-color: black;
+    background-image: url("images/cake.jpg");
+    background-size: 100%;
+    background-position: center;
+    /*让文字消失*/
+    /* text-indent: -999999px; */
+    height: 600px;
+}
+.welcome-box{
+    background-color:rgb(255, 255, 255, 0.7); 
+    height:350px;
+    width: 35%;
+    position: relative;
+    left: 60%;
+    top: 200px;
+}
+.welcome-words1{
+    padding-top: 20px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.welcome-words2{
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(85, 22, 22);
+    font-size: 50px;
+}
+/*作品分类展示*/
+.works{
+    margin-top: 70px;
+    position: relative;
+    left: 70%;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: brown;
+}
+.line{
+    text-indent: -999999px;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+.show_pic{
+    align: center;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*相应设计*/
+@media screen and (max-width: 1545px)
+{
+    .show_pic{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 1162px)
+{
+    .show_pic{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 927px)
+{
+    .show_pic{
+        margin-left: 10%;
+    }
+    .welcome{
+        height: 500px;
+    }
+    .welcome-box{
+        height:250px;
+        top: 220px;
+    }
+    .welcome-words1{
+        padding-top: 5px;
+        font-size: 35px;
+    }
+    .welcome-words2{
+        padding-top: 5px;
+        font-size: 35px;
+    }
+    .works{
+        left: 65%;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 887px)
+{
+    .show_pic{
+        margin-left: 25%;
+    }
+    .welcome-box{
+        height:250px;
+        top: 220px;
+    }
+    .welcome-words1{
+        padding-top: 5px;
+        font-size: 35px;
+    }
+    .welcome-words2{
+        padding-top: 5px;
+        font-size: 35px;
+    }
+}
+
+.show_pic figure{
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.show_pic figure img{
+    border: 1.5px solid rgb(235, 225, 217);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: gray 00px 0px 10px;
+}
+@media screen and (max-width: 755px)
+{
+    .welcome{
+        /*让文字消失*/
+        /* text-indent: -999999px; */
+        height: 400px;
+    }
+    .show_pic{
+        margin-left: 10%;
+    }
+    .welcome-box{
+        height:180px;
+        top: 200px;
+    }
+    .welcome-words1{
+        font-size: 25px;
+    }
+    .welcome-words2{
+        font-size: 25px;
+    }
+    .works{
+        left: 65%;
+        font-size: 20px;
+    }
+    .show_pic figure img{
+
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 645px)
+{
+    .show_pic{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 592px)
+{
+    .welcome{
+        /*让文字消失*/
+        /* text-indent: -999999px; */
+        height: 300px;
+    }
+    .show_pic{
+        margin-left: 20%;
+    }
+    .welcome-box{
+        height:130px;
+        top: 150px;
+    }
+    .welcome-words1{
+        padding-top: 0;
+        font-size: 20px;
+    }
+    .welcome-words2{
+        padding-top: 2px;
+        font-size: 20px;
+    }
+    .works{
+        margin-top: 50px;
+        left: 60%;
+        font-size: 20px;
+    }
+    .show_pic figure img{
+        width: 200px;
+        height: 200px;
+    }
+}
+/*footer*/
+footer{
+    background-color:#000000;
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 40px;
+    text-align: center;
+    color: rgb(102, 101, 101);
+}
+
+/* @media screen and (max-width: 800px){
+    .show_pic{
+        background-color: pink;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .show_pic{
+        background-color: red;
+    }
+} */
