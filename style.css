@@ -18,6 +18,15 @@ nav ul li{
     margin: auto;
     color: aliceblue;
 }
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(243, 240, 236);
+    color: #000000;
+    border-radius: 20px;
+    padding:5px;
+}
 /*首页背景*/
 .welcome{
     background-color: black;
