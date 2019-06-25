@@ -1,0 +1,558 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*导航*/
+nav {
+    background-color: black;
+    height: 80px;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    padding-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    margin: auto;
+    padding: 10px;
+    color: aliceblue;
+}
+
+nav ul li:hover {
+    border-radius: 20px;
+    color: #000000;
+    background-color: rgb(243, 240, 236);
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+/*首页*/
+
+/*首页背景*/
+.welcome {
+    background-color: black;
+    background-image: url("images/cake.jpg");
+    background-size: 100%;
+    background-position: center;
+    /*让文字消失*/
+    /* text-indent: -999999px; */
+    height: 600px;
+}
+
+.welcome-box {
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 350px;
+    width: 35%;
+    position: relative;
+    left: 60%;
+    top: 200px;
+}
+
+.welcome-words1 {
+    padding-top: 20px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.welcome-words2 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(85, 22, 22);
+    font-size: 50px;
+}
+
+/*作品分类展示*/
+.works {
+    margin-top: 70px;
+    position: relative;
+    left: 70%;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: brown;
+}
+
+.line {
+    text-indent: -999999px;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.show_pic {
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*相应设计*/
+@media screen and (max-width: 1545px) {
+    .show_pic {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1162px) {
+    .show_pic {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .show_pic {
+        margin-left: 10%;
+    }
+
+    .welcome {
+        height: 500px;
+    }
+
+    .welcome-box {
+        height: 250px;
+        top: 220px;
+    }
+
+    .welcome-words1 {
+        padding-top: 5px;
+        font-size: 35px;
+    }
+
+    .welcome-words2 {
+        padding-top: 5px;
+        font-size: 35px;
+    }
+
+    .works {
+        left: 65%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 887px) {
+    .show_pic {
+        margin-left: 25%;
+    }
+
+    .welcome-box {
+        height: 250px;
+        top: 220px;
+    }
+
+    .welcome-words1 {
+        padding-top: 5px;
+        font-size: 35px;
+    }
+
+    .welcome-words2 {
+        padding-top: 5px;
+        font-size: 35px;
+    }
+}
+
+.show_pic figure {
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.show_pic figure img {
+    border: 1.5px solid rgb(235, 225, 217);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: gray 00px 0px 10px;
+}
+
+@media screen and (max-width: 755px) {
+    .welcome {
+        /*让文字消失*/
+        /* text-indent: -999999px; */
+        height: 400px;
+    }
+
+    .show_pic {
+        margin-left: 10%;
+    }
+
+    .welcome-box {
+        height: 180px;
+        top: 200px;
+    }
+
+    .welcome-words1 {
+        font-size: 25px;
+    }
+
+    .welcome-words2 {
+        font-size: 25px;
+    }
+
+    .works {
+        left: 65%;
+        font-size: 20px;
+    }
+
+    .show_pic figure img {
+
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .show_pic {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .welcome {
+        /*让文字消失*/
+        /* text-indent: -999999px; */
+        height: 300px;
+    }
+
+    .show_pic {
+        margin-left: 20%;
+    }
+
+    .welcome-box {
+        height: 130px;
+        top: 150px;
+    }
+
+    .welcome-words1 {
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    .welcome-words2 {
+        padding-top: 2px;
+        font-size: 20px;
+    }
+
+    .works {
+        margin-top: 50px;
+        left: 60%;
+        font-size: 20px;
+    }
+
+    .show_pic figure img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*footer*/
+footer {
+    background-color: #000000;
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 40px;
+    text-align: center;
+    color: rgb(102, 101, 101);
+}
+
+/*英语学习界面*/
+.englishstudy {
+    background-color: #f5f3ee;
+}
+
+.back {
+    background-color: black;
+    background-image: url("images/english.jpg");
+    background-size: 100%;
+    background-position: center;
+    /*让文字消失*/
+    text-indent: -999999px;
+    height: 0px;
+}
+
+.box {
+    display: flex;
+    margin-top: 0px;
+}
+
+/*右侧菜单栏*/
+.menu_box {
+    position: fixed;
+    display: inline-block;
+    background-color: #3a3533;
+    width: 20%;
+    height: 291px;
+    margin-left: 75%;
+    margin-top: 90px;
+}
+
+.menu_title {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: #5a4c4c;
+    border-width: 0 0 1px 0;
+}
+
+.list1 {
+    height: 80px;
+    display: flex;
+    border-style: solid;
+    border-color: #5a4c4c;
+    border-width: 0 0 1px 0;
+}
+
+.list1 a {
+    margin-top: 25px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1350px) {
+    .list1 a {
+        margin-top: 15px;
+    }
+}
+
+.pink {
+    text-indent: -999999px;
+    background-color: #f14357;
+    width: 5px;
+}
+
+.yellow {
+    text-indent: -999999px;
+    background-color: #f4ad49;
+    width: 5px;
+}
+
+.purple {
+    text-indent: -999999px;
+    background-color: #6757e2;
+    width: 5px;
+}
+
+.list1 a:hover {
+    text-decoration: underline;
+}
+
+/*english_study_index*/
+
+.index_background{
+    background-color: #ffffff;
+    height: 700px;
+    width: 100%;
+    border-style: solid;
+    border-color: #1d06eb;
+    border-width: 1px;
+}
+.mohu{
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-indent: -99009px;
+    background-image: url('images/books.png');
+    border-style: solid;
+    border-color: #a35252;
+    border-width: 1px;
+}
+.cut{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    left:10%;
+    top:30%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    text-indent: -99009px;
+    background-image: url('images/books-cut.png');
+    border-style: solid;
+    border-color: #2b1d19;
+    border-width: 1px;
+}
+.cut:hover{
+    transition: 0.25s;
+    transform: scale(1.07);
+    box-shadow: 0 0 10px #000000;
+}
+.word_info{
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    top:50%;
+    left:46%;
+    border-style: solid;
+    border-color: #b825ab;
+    border-width: 1px;
+}
+.word_info:hover{
+    transition: 0.25s;
+    transform: scale(1.07);
+}
+.work_by{
+    margin-left: 75%;
+    text-decoration: none;
+    color: #3a3533;
+}
+.work_by:hover{
+    text-decoration: underline;
+}
+
+/*TED部分*/
+.TED_content {
+    background-color: #f5f3ee;
+    display: inline-block;
+    width: 75%;
+    /* height: 100px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    border-style: solid;
+    border-color: #cf0909;
+    border-width: 1px;
+}
+.TED_title{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.TED_title a{
+    text-decoration: none;
+    color: #000000;
+}
+.TED_title a:hover{
+    text-decoration: underline;
+}
+
+.card_box{
+    width: 88%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+}
+.card{
+    width: 375px;
+    height: 530px;
+    /* border-style: solid;
+    border-color: #c2bdbd;
+    border-width: 2px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.card:hover{
+    transition: 0.25s;
+    transform: scale(1.07);
+    box-shadow: 0 0 10px #867878;
+}
+.card_head{
+    height:200px;
+    padding:10px;
+    /* border-style: solid;
+    border-color: #2c2eda;
+    border-width: 1px; */
+}
+.talk_title{
+    color: #ffffff;
+    width: 350px;
+    /* border-style: solid;
+    border-color: #2c2eda;
+    border-width: 1px; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.talk_title a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+.talk_title a:hover{
+    text-decoration: underline;
+}
+.speaker{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* border-style: solid;
+    border-color: #2c2eda;
+    border-width: 1px; */
+}
+.speaker a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
+.speaker a:hover{
+    text-decoration: underline;
+}
+.TED_detail{
+    height: 300px;
+    /* border-style: solid;
+    border-color: #c2bdbd;
+    border-width: 0 2px 2px 2px; */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    color: #3a3533;
+    background-color: #ffffff;
+}
+
+.TED_detail:first-letter{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+/*vocabulary 部分*/
+.vocabulary_content{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 75%;
+    /* height: 100px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+}
+
+
+/*我的生活界面*/
