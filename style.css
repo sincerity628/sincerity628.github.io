@@ -40,9 +40,14 @@ nav ul li a {
 nav ul li a:hover {
     color: #000000;
 }
-
+html{     
+    width:100%;    
+    overflow-x:hidden;
+}
 /*首页*/
-
+body{
+    width: 100%;
+}
 /*首页背景*/
 .welcome {
     padding-top: 130px;
