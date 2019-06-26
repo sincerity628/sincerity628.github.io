@@ -40,10 +40,10 @@ nav ul li a {
 nav ul li a:hover {
     color: #000000;
 }
-html{     
+/* html{     
     width:100%;    
     overflow-x:hidden;
-}
+} */
 /*首页*/
 body{
     width: 100%;
@@ -89,8 +89,7 @@ body{
 /*作品分类展示*/
 .works {
     margin-top: 70px;
-    position: relative;
-    left: 70%;
+    margin-left: 70%;
     text-transform: uppercase;
     font-size: 30px;
     color: brown;
