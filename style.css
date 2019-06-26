@@ -479,7 +479,7 @@ footer {
     height: 300px;
     text-indent: -99999px;
     position: absolute;
-    left: 170px;
+    left: 162px;
     opacity: 0.4;
 }
 .img_shadow_right{
@@ -488,7 +488,7 @@ footer {
     height: 300px;
     text-indent: -99999px;
     position: absolute;
-    left: 832px;
+    left: 823px;
     opacity: 0.2;
 }
 .img_shadow_left:hover{
