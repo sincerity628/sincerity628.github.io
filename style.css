@@ -397,7 +397,7 @@ footer {
     width: 600px;
     position: absolute;
     left:10%;
-    top:30%;
+    top:25%;
     border-radius: 50%;
     box-shadow: 0 0 10px;
     text-indent: -99999px;
@@ -466,7 +466,6 @@ footer {
 .intro_img_right{
     height: 300px;
     width: 300px;
-    margin-left: 0px;
     text-indent: -99999px;
     box-shadow: 15px 15px #2e2a29;
     /* border-style: solid;
@@ -477,18 +476,19 @@ footer {
     background-color: #a87861;
     width: 300px;
     height: 300px;
+    float: left;
     text-indent: -99999px;
-    position: absolute;
-    left: 162px;
-    opacity: 0.4;
+    opacity: 0.2;
+    /* border-style: solid;
+    border-color: #1759d4;
+    border-width: 1px; */
 }
 .img_shadow_right{
     background-color: #a87861;
     width: 300px;
     height: 300px;
+    float: left;
     text-indent: -99999px;
-    position: absolute;
-    left: 823px;
     opacity: 0.2;
 }
 .img_shadow_left:hover{
