@@ -5,6 +5,9 @@ body {
 
 /*导航*/
 nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     background-color: black;
     height: 80px;
 }
@@ -42,6 +45,7 @@ nav ul li a:hover {
 
 /*首页背景*/
 .welcome {
+    padding-top: 130px;
     background-color: black;
     background-image: url("images/cake.jpg");
     background-size: 100%;
@@ -287,7 +291,7 @@ footer {
 
 .box {
     display: flex;
-    margin-top: 0px;
+    margin-top: 80px;
 }
 
 /*右侧菜单栏*/
@@ -358,14 +362,25 @@ footer {
 }
 
 /*english_study_index*/
+.index_box{
+    width: 88%;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 2800px;
+    /* border-style: solid;
+    border-color: #000000;
+    border-width: 1px; */
+}
 
 .index_background{
     background-color: #ffffff;
     height: 700px;
     width: 100%;
-    border-style: solid;
+    /* border-style: solid;
     border-color: #1d06eb;
-    border-width: 1px;
+    border-width: 1px; */
 }
 .mohu{
     height: 500px;
@@ -373,9 +388,9 @@ footer {
     margin-top: 100px;
     text-indent: -99009px;
     background-image: url('images/books.png');
-    border-style: solid;
+    /* border-style: solid;
     border-color: #a35252;
-    border-width: 1px;
+    border-width: 1px; */
 }
 .cut{
     height: 600px;
@@ -385,11 +400,11 @@ footer {
     top:30%;
     border-radius: 50%;
     box-shadow: 0 0 10px;
-    text-indent: -99009px;
+    text-indent: -99999px;
     background-image: url('images/books-cut.png');
-    border-style: solid;
+    /* border-style: solid;
     border-color: #2b1d19;
-    border-width: 1px;
+    border-width: 1px; */
 }
 .cut:hover{
     transition: 0.25s;
@@ -405,22 +420,114 @@ footer {
     color: #ffffff;
     text-align: center;
     top:50%;
-    left:46%;
-    border-style: solid;
+    left:43%;
+    /* border-style: solid;
     border-color: #b825ab;
-    border-width: 1px;
+    border-width: 1px; */
 }
 .word_info:hover{
     transition: 0.25s;
     transform: scale(1.07);
 }
-.work_by{
-    margin-left: 75%;
-    text-decoration: none;
-    color: #3a3533;
+.intro_words{
+    text-align: center;
+    margin-top: 30px;
+    color: #3f3a38;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+    text-shadow: 2px 2px 7px #5f5b5b;
 }
-.work_by:hover{
-    text-decoration: underline;
+.intro_words:hover{
+    color: #000000;
+    transition: 0.25s;
+    transform: scale(1.17);
+}
+.intro_box{
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 30px;
+    padding-top: 40px;
+    display: flex;
+    /* border-style: solid;
+    border-color: #d4c217;
+    border-width: 1px; */
+}
+.intro_img_left{
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+    text-indent: -99999px;
+    box-shadow: -15px -15px #2e2a29;
+    /* border-style: solid;
+    border-color: #1759d4;
+    border-width: 1px; */
+}
+.intro_img_right{
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    text-indent: -99999px;
+    box-shadow: 15px 15px #2e2a29;
+    /* border-style: solid;
+    border-color: #1759d4;
+    border-width: 1px; */
+}
+.img_shadow_left{
+    background-color: #a87861;
+    width: 300px;
+    height: 300px;
+    text-indent: -99999px;
+    position: absolute;
+    left: 170px;
+    opacity: 0.4;
+}
+.img_shadow_right{
+    background-color: #a87861;
+    width: 300px;
+    height: 300px;
+    text-indent: -99999px;
+    position: absolute;
+    left: 832px;
+    opacity: 0.2;
+}
+.img_shadow_left:hover{
+    opacity: 0;
+}
+.img_shadow_right:hover{
+    opacity: 0;
+}
+.intro_words_right{
+    width: 700px;
+    position: absolute;
+    color: #5a4c4c;
+    margin-left: 22%;
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 25px;
+}
+.intro_words_left{
+    width: 600px;
+    color: #5a4c4c;
+    margin-left: 98.5px;
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 25px;
+    text-align: center;
+    /* border-style: solid;
+    border-color: #d4c217;
+    border-width: 1px; */
+}
+.works_by{
+    margin-top: 200px;
+    color: #3f3a38;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    /* border-style: solid;
+    border-color: #d4c217;
+    border-width: 1px; */
 }
 
 /*TED部分*/
@@ -432,9 +539,9 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 2%;
-    border-style: solid;
+    /* border-style: solid;
     border-color: #cf0909;
-    border-width: 1px;
+    border-width: 1px; */
 }
 .TED_title{
     text-transform: uppercase;
@@ -453,9 +560,9 @@ footer {
 
 .card_box{
     width: 88%;
-    border-style: solid;
+    /* border-style: solid;
     border-color: #000000;
-    border-width: 1px;
+    border-width: 1px; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
